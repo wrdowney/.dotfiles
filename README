@@ -1,0 +1,22 @@
+Use GNU stow to symlink files from this directory to my home directory.
+
+Store related dotfiles in a package. This is the stow directory. Running stow 
+will symlink the dotfiles to the target directory (home directory).
+
+ex: .bashrc
+.dotfiles
+├── bash
+│   └── .bashrc
+running "stow bash" from the .dotfiles directory will symlink .bashrc to the
+home directory.
+
+ex: init.nvim
+.dotfiles
+├── nvim
+│   ├── .config
+│       └── nvim
+|   	 	└── init.vim
+running "stow nvim" from the .dotfiles directory will symlink init.nvim to
+~/.config/nvim/init.nvim.
+
+[1]https://www.gnu.org/software/stow/
