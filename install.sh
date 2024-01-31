@@ -4,7 +4,7 @@ sudo add-apt-repository ppa:neovim-ppa/stable -y
 
 sudo apt update -y
 sudo apt upgrade -y
-sudo apt install git neovim stow texlive-full tmux tlp -y
+sudo apt install git neovim stow texlive-full tmux tlp timeshift -y
 
 git config --global init.defaultBranch main
 git config --global user.name "wrdowney"
