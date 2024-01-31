@@ -161,7 +161,7 @@ user_pref("services.settings.security-state.onecrl.last_check", 1706664089);
 user_pref("services.sync.engine.addresses.available", true);
 user_pref("storage.vacuum.last.index", 0);
 user_pref("storage.vacuum.last.places.sqlite", 1706661398);
-user_pref("toolkit.startup.last_success", 1706640023);
+user_pref("toolkit.startup.last_success", 1706715543);
 user_pref("toolkit.telemetry.cachedClientID", "c0ffeec0-ffee-c0ff-eec0-ffeec0ffeec0");
 user_pref("toolkit.telemetry.pioneer-new-studies-available", true);
 user_pref("toolkit.telemetry.previousBuildID", "20240115170312");
