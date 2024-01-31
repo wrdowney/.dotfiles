@@ -113,4 +113,6 @@ if ! shopt -oq posix; then
 fi
 
 export EDITOR='nvim'
-export VISUAL='nvim
+export VISUAL='nvim'
+
+PATH=/opt/idea/bin:~/.console-ninja/.bin:$PATH

@@ -1,1 +1,2 @@
 stow bash
+stow tmux
