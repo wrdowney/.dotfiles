@@ -20,7 +20,7 @@ font pango:DejaVu Sans Mono 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec /home/wrdowney/.cargo/bin/alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -149,5 +149,3 @@ bar {
 # gaps
 gaps inner 15px
 gaps outer 5px
-
-exec --no-startup-id feh --bg-scale /usr/share/backgrounds/gnome/blobs-d.svg

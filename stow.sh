@@ -1,3 +1,4 @@
 stow bash
 stow tmux
-stow mozilla
+stow i3
+stow nvim
