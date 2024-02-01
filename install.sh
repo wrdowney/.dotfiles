@@ -4,7 +4,12 @@ sudo add-apt-repository ppa:neovim-ppa/stable -y
 
 sudo apt update -y
 sudo apt upgrade -y
-sudo apt install gcc cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3 git neovim stow texlive-full tmux tlp timeshift i3 blueman feh curl -y
+sudo apt install zsh gcc cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3 git neovim stow texlive-full tmux tlp timeshift i3 blueman feh curl -y
+
+./stow.sh
+
+# oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # git configurations
 git config --global init.defaultBranch main
