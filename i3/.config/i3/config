@@ -149,3 +149,7 @@ bar {
 # gaps
 gaps inner 15px
 gaps outer 5px
+
+default_border none
+default_floating_border none
+exec --no-startup-id feh --bg-scale /usr/share/backgrounds/gnome/pixels-d.svg
