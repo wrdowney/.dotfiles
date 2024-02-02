@@ -117,3 +117,5 @@ export VISUAL='nvim'
 
 PATH=/opt/idea/bin:~/.console-ninja/.bin:$PATH
 . "$HOME/.cargo/env"
+
+PATH=~/.console-ninja/.bin:$PATH
