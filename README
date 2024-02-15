@@ -19,4 +19,8 @@ ex: init.nvim
 running "stow nvim" from the .dotfiles directory will symlink init.nvim to
 ~/.config/nvim/init.nvim.
 
+Other files:
+dnf.conf - configuration for fedora's dnf package manager 
+	location: /etc/dnf/dnf.conf
+
 [1]https://www.gnu.org/software/stow/

@@ -1,0 +1,8 @@
+import = [
+    "~/.config/alacritty/themes/themes/breeze.toml"
+]
+[shell]
+program = "/bin/bash"
+
+[font]
+size = 12.0
