@@ -1,0 +1,11 @@
+2024/02/16-12:35:00.760 14c12 Creating DB /home/wrdowney/.config/discord/Local Storage/leveldb since it was missing.
+2024/02/16-12:35:00.788 14c12 Reusing MANIFEST /home/wrdowney/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/02/16-12:38:49.223 14c43 Level-0 table #5: started
+2024/02/16-12:38:49.254 14c43 Level-0 table #5: 2911579 bytes OK
+2024/02/16-12:38:49.265 14c43 Delete type=0 #3
+2024/02/17-14:18:38.418 38e3b Level-0 table #7: started
+2024/02/17-14:18:38.434 38e3b Level-0 table #7: 29492 bytes OK
+2024/02/17-14:18:38.447 38e3b Delete type=0 #4
+2024/02/19-12:08:11.423 14c43 Level-0 table #9: started
+2024/02/19-12:08:11.436 14c43 Level-0 table #9: 17422 bytes OK
+2024/02/19-12:08:11.446 14c43 Delete type=0 #6

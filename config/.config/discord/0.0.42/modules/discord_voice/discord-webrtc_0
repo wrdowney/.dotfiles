@@ -1,0 +1,1184 @@
+[2024-02-16 12:35:04.783] [85208] (engine.cpp:541): Created native Engine, time: Fri Feb 16 12:35:04 2024 EST, logPath: /home/wrdowney/.config/discord/0.0.42/modules/discord_voice/, logLevel: 2
+[2024-02-16 12:35:04.783] [85208] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2024-02-16 12:35:04.783] [85208] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2024-02-16 12:35:04.783] [85208] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2024-02-16 12:35:04.783] [85208] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2024-02-16 12:35:04.783] [85208] (audio_device_impl.cc:143): current platform is Linux
+[2024-02-16 12:35:04.783] [85208] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2024-02-16 12:35:04.783] [85208] (audio_device_impl.cc:991): PlatformAudioLayer
+[2024-02-16 12:35:04.783] [85208] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2024-02-16 12:35:04.783] [85208] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2024-02-16 12:35:04.783] [85208] (audio_device_impl.cc:344): AttachAudioBuffer
+[2024-02-16 12:35:04.783] [85208] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2024-02-16 12:35:04.783] [85208] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2024-02-16 12:35:04.783] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2024-02-16 12:35:04.783] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2024-02-16 12:35:04.783] [85208] (audio_device_impl.cc:354): ActiveAudioLayer
+[2024-02-16 12:35:04.783] [85208] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2024-02-16 12:35:04.783] [85208] (audio_device_impl.cc:143): current platform is Linux
+[2024-02-16 12:35:04.783] [85208] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2024-02-16 12:35:04.783] [85208] (audio_device_impl.cc:991): PlatformAudioLayer
+[2024-02-16 12:35:04.783] [85208] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2024-02-16 12:35:04.783] [85208] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2024-02-16 12:35:04.783] [85208] (audio_device_impl.cc:344): AttachAudioBuffer
+[2024-02-16 12:35:04.783] [85208] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2024-02-16 12:35:04.783] [85208] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2024-02-16 12:35:04.783] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2024-02-16 12:35:04.783] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2024-02-16 12:35:04.783] [85208] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2024-02-16 12:35:04.783] [85208] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2024-02-16 12:35:04.783] [85208] (audio_engine.cpp:400): Creating audio engine: standard
+[2024-02-16 12:35:04.783] [85208] (audio_device_impl.cc:364): Init
+[2024-02-16 12:35:04.787] [85208] (audio_device_impl.cc:364): Init
+[2024-02-16 12:35:04.788] [85208] (audio_coding.cpp:149): Using software Opus decoder
+[2024-02-16 12:35:04.788] [85208] (audio_coding.cpp:166): Using software Opus encoder
+[2024-02-16 12:35:04.788] [85208] (audio_device_impl.cc:895): RegisterAudioCallback
+[2024-02-16 12:35:04.788] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(100)
+[2024-02-16 12:35:04.788] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-16 12:35:04.788] [85208] (audio_device_impl.cc:895): RegisterAudioCallback
+[2024-02-16 12:35:04.788] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-16 12:35:04.788] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-16 12:35:04.788] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-16 12:35:04.788] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-16 12:35:04.788] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-16 12:35:04.788] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-16 12:35:04.788] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-16 12:35:04.788] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-16 12:35:04.788] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-16 12:35:04.788] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-16 12:35:04.788] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-16 12:35:04.788] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-16 12:35:04.788] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-16 12:35:04.788] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-16 12:35:04.788] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-16 12:35:04.788] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-16 12:35:04.788] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-16 12:35:04.788] [85208] (audio_device_impl.cc:911): BuiltInAECIsAvailable
+[2024-02-16 12:35:04.788] [85208] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2024-02-16 12:35:04.788] [85208] (audio_device_impl.cc:914): output: 0
+[2024-02-16 12:35:04.788] [85208] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2024-02-16 12:35:04.789] [85208] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
+[2024-02-16 12:35:04.789] [85208] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2024-02-16 12:35:04.789] [85208] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2024-02-16 12:35:04.789] [85208] (clipping_predictor.cc:357): [agc] Clipping prediction disabled.
+[2024-02-16 12:35:04.789] [85208] (agc_manager_direct.cc:500): [agc] analog controller enabled: yes
+[2024-02-16 12:35:04.789] [85208] (agc_manager_direct.cc:503): [agc] Min mic level: 12 (overridden: no)
+[2024-02-16 12:35:04.789] [85208] (agc_manager_direct.cc:507): [agc] Startup min volume: 0
+[2024-02-16 12:35:04.789] [85208] (captured_audio_processor.cpp:115): SetNoiseCancellation: 0
+[2024-02-16 12:35:04.789] [85208] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2024-02-16 12:35:04.789] [85208] (field_trial.cc:141): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2024-02-16 12:35:04.790] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 12:35:04.790] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 12:35:04.790] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-16 12:35:04.790] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 12:35:04.790] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 12:35:04.790] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 12:35:04.790] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 12:35:04.790] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-16 12:35:04.790] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 12:35:04.790] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 12:35:04.790] [85208] (engine.cpp:257): - default: WH-CH720N ()
+[2024-02-16 12:35:04.790] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-16 12:35:04.790] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-16 12:35:04.790] [85208] (engine.cpp:257): - WH-CH720N ()
+[2024-02-16 12:35:04.852] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-16 12:35:04.852] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-16 12:35:04.852] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-16 12:35:04.852] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-16 12:35:04.852] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-16 12:35:04.852] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-16 12:35:04.852] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-16 12:35:04.852] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-16 12:35:04.852] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-16 12:35:04.852] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-16 12:35:04.852] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-16 12:35:04.852] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-16 12:35:04.852] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-16 12:35:04.852] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-16 12:35:04.852] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-16 12:35:04.852] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-16 12:35:04.852] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-16 12:35:04.852] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-16 12:35:04.852] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-16 12:35:04.852] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-16 12:35:04.852] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-16 12:35:04.852] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-16 12:35:04.853] [85179] (discord.cpp:755): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 266957, Version Hash: 7f1baf2bb875d96db921cbf72162b40b24adde0c"]
+[2024-02-16 12:35:04.890] [85179] (discord.cpp:755): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2024-02-16 12:35:04.957] [85179] (discord.cpp:755): JS console: ["%c[default]","[NATIVE INFO] host 0.0.42, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 2, build: null"]
+[2024-02-16 12:35:04.986] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-16 12:35:04.986] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-16 12:35:04.986] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-16 12:35:04.986] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-16 12:35:04.986] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-16 12:35:04.986] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-16 12:35:04.986] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-16 12:35:04.986] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-16 12:35:04.986] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-16 12:35:04.986] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-16 12:35:04.986] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-16 12:35:04.986] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-16 12:35:04.987] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-16 12:35:04.987] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-16 12:35:04.987] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-16 12:35:04.987] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-16 12:35:04.987] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-16 12:35:04.987] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-16 12:35:04.987] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-16 12:35:04.989] [85179] (discord.cpp:755): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2024-02-16 12:35:05.046] [85179] (discord.cpp:755): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
+[2024-02-16 12:35:05.353] [85179] (discord.cpp:755): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2024-02-16 12:35:05.721] [85179] (discord.cpp:755): JS console: ["Initializing krisp module"]
+[2024-02-16 12:35:06.001] [85179] (discord.cpp:755): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2024-02-16 12:35:06.006] [85179] (discord.cpp:755): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2024-02-16 12:35:07.793] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 12:35:07.793] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 12:35:07.793] [85208] (engine.cpp:252): - default: WH-CH720N ()
+[2024-02-16 12:35:07.793] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 12:35:07.793] [85208] (engine.cpp:252): - WH-CH720N ()
+[2024-02-16 12:35:07.793] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 12:35:07.793] [85208] (engine.cpp:257): - default: WH-CH720N ()
+[2024-02-16 12:35:07.793] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-16 12:35:07.793] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-16 12:35:07.793] [85208] (engine.cpp:257): - WH-CH720N ()
+[2024-02-16 12:35:07.793] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-16 12:35:07.793] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-16 12:35:07.793] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-16 12:35:07.793] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-16 12:35:07.793] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-16 12:35:07.793] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-16 12:35:07.793] [85208] (audio_device_impl.cc:573): output: 0
+[2024-02-16 12:35:07.793] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-16 12:35:07.793] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-16 12:35:07.793] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-16 12:35:07.793] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-16 12:35:07.793] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-16 12:35:07.971] [85179] (discord.cpp:755): JS console: ["%c[RPCServer:WSS]","Socket Message: 3","[object Object]"]
+[2024-02-16 12:35:07.972] [85179] (discord.cpp:755): JS console: ["%c[RPCServer:WSS]","Socket Emit: 3","[object Object]"]
+[2024-02-16 12:35:08.008] [85179] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2"]
+[2024-02-16 12:35:08.212] [85179] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[205ms] got hello, auth timeout=127623ms"]
+[2024-02-16 12:35:08.227] [85179] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[220ms] connected, handshaking with fingerprint: 1PbuIX0vD-lhQCkSci9g9SLiiaedZkG5yZUKlDSkOgI"]
+[2024-02-16 12:35:08.262] [85179] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[255ms] computed nonce proof"]
+[2024-02-16 12:35:08.296] [85179] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[289ms] handshake complete awaiting remote auth."]
+[2024-02-16 12:35:41.001] [85179] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[32978ms] remote auth handshake started, awaiting ticket/cancel."]
+[2024-02-16 12:35:43.201] [85179] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching LOGIN"]
+[2024-02-16 12:35:43.228] [85179] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching LOGIN_SUCCESS"]
+[2024-02-16 12:35:43.247] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /app"]
+[2024-02-16 12:35:43.253] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-16 12:35:43.256] [85179] (discord.cpp:755): JS console: ["%c[LoginQRSocket]","[35249ms] cleaning up"]
+[2024-02-16 12:35:43.485] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 231 ms"]
+[2024-02-16 12:35:43.928] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY] took 675ms, as e113a4ca3b3a01c7ddb2be2cdde7f66b"]
+[2024-02-16 12:35:43.936] [85179] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2024-02-16 12:35:43.938] [85179] (discord.cpp:755): JS console: ["%c[DatabaseManager]","removing database (user: 747883603647791125, database: undefined)"]
+[2024-02-16 12:35:43.945] [85179] (discord.cpp:755): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2024-02-16 12:35:43.969] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 716ms"]
+[2024-02-16 12:35:47.153] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 1207825567014060034 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 12:35:47.258] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1207825566313746537/1207825567014060034"]
+[2024-02-16 12:35:47.385] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 12 messages for 1207825567014060034 isBefore:false isAfter:false"]
+[2024-02-16 12:35:47.388] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=1207825567014060034, sending.length=0"]
+[2024-02-16 12:36:05.440] [86059] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-east
+[2024-02-16 12:36:05.441] [86059] (region_latency_tester.cpp:72): Sending 5 latency test pings to region atlanta
+[2024-02-16 12:36:05.441] [86059] (region_latency_tester.cpp:72): Sending 5 latency test pings to region newark
+[2024-02-16 12:36:05.441] [86059] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2024-02-16 12:36:05.441] [86059] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2024-02-16 12:36:05.680] [86059] (region_latency_tester.cpp:283): Average RTT for region us-east is 43.5
+[2024-02-16 12:36:05.680] [86059] (region_latency_tester.cpp:283): Average RTT for region atlanta is 89
+[2024-02-16 12:36:05.680] [86059] (region_latency_tester.cpp:283): Average RTT for region newark is 126
+[2024-02-16 12:36:05.680] [86059] (region_latency_tester.cpp:283): Average RTT for region us-central is 161.25
+[2024-02-16 12:36:05.680] [86059] (region_latency_tester.cpp:283): Average RTT for region us-south is 192.5
+[2024-02-16 12:37:32.591] [85179] (discord.cpp:755): JS console: ["%c[Spellchecker]","Switching to de-DE","(available)"]
+[2024-02-16 12:37:40.371] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1207825566313746537/1207825567014060034"]
+[2024-02-16 12:38:20.008] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 807379025949360158 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 12:38:20.137] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/784910850992373806/807379025949360158"]
+[2024-02-16 12:38:20.247] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 5 messages for 807379025949360158 isBefore:false isAfter:false"]
+[2024-02-16 12:38:20.249] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=807379025949360158, sending.length=0"]
+[2024-02-16 12:38:58.132] [85179] (discord.cpp:755): JS console: ["%c[ComponentDispatchUtils]","ComponentDispatch.subscribe: Attempting to add a duplicate listener","POPOUT_CLOSE"]
+[2024-02-16 12:39:28.497] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 547160138360815623 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 12:39:28.598] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/478925420616482816/547160138360815623"]
+[2024-02-16 12:39:28.739] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 547160138360815623 isBefore:false isAfter:false"]
+[2024-02-16 12:39:28.741] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=547160138360815623, sending.length=0"]
+[2024-02-16 12:39:28.814] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 547160138360815623 between 1207844014624350268 and undefined. jump=undefined"]
+[2024-02-16 12:39:28.825] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 547160138360815623 between 1207844014624350268 and undefined. jump=undefined"]
+[2024-02-16 12:39:29.028] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 547160138360815623 isBefore:true isAfter:false"]
+[2024-02-16 12:39:29.109] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 936800278064275499 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 12:39:29.222] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 547160138360815623 isBefore:true isAfter:false"]
+[2024-02-16 12:39:29.247] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/936800278064275496/936800278064275499"]
+[2024-02-16 12:39:29.644] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 0 messages for 936800278064275499 isBefore:false isAfter:false"]
+[2024-02-16 12:39:29.644] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=936800278064275499, sending.length=0"]
+[2024-02-16 12:39:30.565] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 980480120479428648 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 12:39:30.709] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/936800278064275496/980480120479428648"]
+[2024-02-16 12:39:31.093] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 8 messages for 980480120479428648 isBefore:false isAfter:false"]
+[2024-02-16 12:39:31.095] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=980480120479428648, sending.length=0"]
+[2024-02-16 12:39:35.183] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 442714176981303307 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 12:39:35.236] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/442506812969713694/442714176981303307"]
+[2024-02-16 12:39:35.320] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 1 messages for 442714176981303307 isBefore:false isAfter:false"]
+[2024-02-16 12:39:35.323] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=442714176981303307, sending.length=0"]
+[2024-02-16 12:39:43.139] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 738119938077884447 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 12:39:43.245] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/442506812969713694/738119938077884447"]
+[2024-02-16 12:39:43.413] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 738119938077884447 isBefore:false isAfter:false"]
+[2024-02-16 12:39:43.419] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=738119938077884447, sending.length=0"]
+[2024-02-16 12:39:46.468] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 888826136455442453 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 12:39:46.614] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/442506812969713694/888826136455442453"]
+[2024-02-16 12:39:46.924] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 888826136455442453 isBefore:false isAfter:false"]
+[2024-02-16 12:39:46.938] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=888826136455442453, sending.length=0"]
+[2024-02-16 12:39:47.193] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 1197406506434441236 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 12:39:47.330] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/442506812969713694/1197406506434441236"]
+[2024-02-16 12:39:47.382] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 3 messages for 1197406506434441236 isBefore:false isAfter:false"]
+[2024-02-16 12:39:47.383] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=1197406506434441236, sending.length=0"]
+[2024-02-16 12:39:47.653] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 876951427950477382 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 12:39:47.781] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/442506812969713694/876951427950477382"]
+[2024-02-16 12:39:47.850] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 876951427950477382 isBefore:false isAfter:false"]
+[2024-02-16 12:39:47.852] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=876951427950477382, sending.length=0"]
+[2024-02-16 12:39:47.963] [85179] (discord.cpp:755): JS console: ["%c[discord_protos.discord_users.v1.FrecencyUserSettings]","Loading proto"]
+[2024-02-16 12:39:47.986] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 537348777372024863 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 12:39:48.139] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/442506812969713694/537348777372024863"]
+[2024-02-16 12:39:48.250] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 537348777372024863 isBefore:false isAfter:false"]
+[2024-02-16 12:39:48.255] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=537348777372024863, sending.length=0"]
+[2024-02-16 12:39:50.901] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 481107046901612595 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 12:39:51.008] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/442506812969713694/481107046901612595"]
+[2024-02-16 12:39:51.191] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 481107046901612595 isBefore:false isAfter:false"]
+[2024-02-16 12:39:51.198] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=481107046901612595, sending.length=0"]
+[2024-02-16 12:39:53.385] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 801187416652251177 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 12:39:53.521] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/442506812969713694/801187416652251177"]
+[2024-02-16 12:39:53.606] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 801187416652251177 isBefore:false isAfter:false"]
+[2024-02-16 12:39:53.607] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=801187416652251177, sending.length=0"]
+[2024-02-16 12:40:01.885] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 1097548412972445776 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 12:40:01.996] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/999020726986227854/1097548412972445776"]
+[2024-02-16 12:40:02.162] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1097548412972445776 isBefore:false isAfter:false"]
+[2024-02-16 12:40:02.164] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=1097548412972445776, sending.length=0"]
+[2024-02-16 12:40:05.858] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 1095893443819094036 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 12:40:05.994] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 5 messages for 1095893443819094036 isBefore:false isAfter:false"]
+[2024-02-16 12:40:05.997] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=1095893443819094036, sending.length=0"]
+[2024-02-16 12:40:06.002] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/999020726986227854/1095893443819094036"]
+[2024-02-16 12:40:06.904] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 1095888911965880340 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 12:40:07.031] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/999020726986227854/1095888911965880340"]
+[2024-02-16 12:40:07.113] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 2 messages for 1095888911965880340 isBefore:false isAfter:false"]
+[2024-02-16 12:40:07.113] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=1095888911965880340, sending.length=0"]
+[2024-02-16 12:40:09.640] [85179] (discord.cpp:755): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2024-02-16 12:40:09.669] [85179] (discord.cpp:755): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2024-02-16 12:40:09.676] [85179] (discord.cpp:755): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2024-02-16 12:40:09.802] [85179] (discord.cpp:755): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2024-02-16 12:46:01.806] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 2.20 seconds."]
+[2024-02-16 12:46:04.006] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-16 12:46:04.184] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 178 ms"]
+[2024-02-16 12:46:04.185] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUME] resuming session e113a4ca3b3a01c7ddb2be2cdde7f66b, seq: 776"]
+[2024-02-16 12:46:04.259] [85179] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2024-02-16 12:46:04.270] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUMED] took 263ms, replayed 0 events, new seq: 782"]
+[2024-02-16 12:46:51.799] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 1.50 seconds."]
+[2024-02-16 12:46:53.298] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-16 12:46:53.425] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 126 ms"]
+[2024-02-16 12:46:53.425] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUME] resuming session e113a4ca3b3a01c7ddb2be2cdde7f66b, seq: 879"]
+[2024-02-16 12:46:53.497] [85179] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2024-02-16 12:46:53.504] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUMED] took 206ms, replayed 0 events, new seq: 883"]
+[2024-02-16 13:33:28.004] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 2.19 seconds."]
+[2024-02-16 13:33:30.198] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-16 13:33:30.424] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 225 ms"]
+[2024-02-16 13:33:30.424] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUME] resuming session e113a4ca3b3a01c7ddb2be2cdde7f66b, seq: 4590"]
+[2024-02-16 13:33:30.505] [85179] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2024-02-16 13:33:30.507] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUMED] took 309ms, replayed 0 events, new seq: 4592"]
+[2024-02-16 14:15:39.576] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 2.65 seconds."]
+[2024-02-16 14:15:42.225] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-16 14:15:42.416] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 190 ms"]
+[2024-02-16 14:15:42.416] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUME] resuming session e113a4ca3b3a01c7ddb2be2cdde7f66b, seq: 8331"]
+[2024-02-16 14:15:42.500] [85179] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2024-02-16 14:15:42.503] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUMED] took 278ms, replayed 0 events, new seq: 8338"]
+[2024-02-16 14:22:33.081] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1207825566313746537/1207825567014060034"]
+[2024-02-16 14:53:51.468] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 2.87 seconds."]
+[2024-02-16 14:53:54.337] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-16 14:53:54.548] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 210 ms"]
+[2024-02-16 14:53:54.549] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUME] resuming session e113a4ca3b3a01c7ddb2be2cdde7f66b, seq: 11982"]
+[2024-02-16 14:53:54.630] [85179] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2024-02-16 14:53:54.635] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUMED] took 298ms, replayed 0 events, new seq: 11991"]
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:252): - default: WH-CH720N ()
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:252): -  ()
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:257): - default: WH-CH720N ()
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:257): - WH-CH720N ()
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:252): - default: WH-CH720N ()
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:252): -  ()
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-16 15:39:50.844] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-16 15:39:50.846] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-16 15:39:50.846] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-16 15:39:50.846] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-16 15:39:50.846] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-16 15:39:50.846] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-16 15:39:50.846] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-16 15:39:50.847] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-16 15:39:50.847] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-16 15:39:50.847] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-16 15:39:50.847] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-16 15:39:50.847] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-16 15:39:50.847] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-16 15:39:50.847] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-16 15:39:50.847] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-16 15:39:50.847] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-16 15:39:50.847] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-16 15:39:50.848] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-16 15:39:50.848] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-16 15:39:50.848] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-16 15:39:51.847] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 15:39:51.847] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 15:39:51.847] [85208] (engine.cpp:252): - default: alsa_output.pci-0000_00_1f.3.analog-stereo.monitor ()
+[2024-02-16 15:39:51.847] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 15:39:51.847] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 15:39:51.847] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-16 15:39:51.847] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-16 15:39:51.847] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-16 15:39:51.848] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-16 15:39:51.848] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-16 15:39:51.848] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-16 15:39:51.848] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-16 15:39:51.848] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-16 15:39:51.849] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-16 15:39:51.850] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-16 15:39:51.850] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-16 15:39:51.850] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-16 15:39:51.850] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-16 15:39:51.850] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-16 15:39:51.850] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-16 15:49:51.525] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 15:49:51.525] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 15:49:51.525] [85208] (engine.cpp:252): - default: alsa_output.pci-0000_00_1f.3.analog-stereo.monitor ()
+[2024-02-16 15:49:51.525] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 15:49:51.525] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 15:49:51.525] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-16 15:49:51.525] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-16 15:49:51.526] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-16 15:49:51.526] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-16 15:49:51.526] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-16 15:49:51.526] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-16 15:49:51.527] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-16 15:49:51.527] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-16 15:49:51.527] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-16 16:31:21.887] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 16:31:21.887] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 16:31:21.887] [85208] (engine.cpp:252): - default: alsa_output.pci-0000_00_1f.3.analog-stereo.monitor ()
+[2024-02-16 16:31:21.887] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 16:31:21.887] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 16:31:21.887] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-16 16:31:21.887] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-16 16:31:21.887] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-16 16:31:21.888] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-16 16:31:21.888] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-16 16:31:21.888] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-16 16:31:21.889] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-16 16:31:21.890] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-16 16:31:21.890] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-16 16:31:21.890] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-16 16:31:24.145] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 1.56 seconds."]
+[2024-02-16 16:31:25.702] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-16 16:31:25.913] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 211 ms"]
+[2024-02-16 16:31:26.290] [85179] (discord.cpp:755): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 1207825566313746537"]
+[2024-02-16 16:31:26.412] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY] took 710ms, as 1ea21542011def2aa4de72e74b7f596f"]
+[2024-02-16 16:31:26.419] [85179] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2024-02-16 16:31:26.420] [85179] (discord.cpp:755): JS console: ["%c[DatabaseManager]","removing database (user: 747883603647791125, database: null)"]
+[2024-02-16 16:31:26.423] [85179] (discord.cpp:755): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2024-02-16 16:31:26.432] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 1207825567014060034 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 16:31:26.469] [85179] (discord.cpp:755): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Updating userContent with delay 0"]
+[2024-02-16 16:31:26.470] [85179] (discord.cpp:755): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Scheduling save from markDirty"]
+[2024-02-16 16:31:26.472] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 770ms"]
+[2024-02-16 16:31:26.473] [85179] (discord.cpp:755): JS console: ["%c[discord_protos.discord_users.v1.PreloadedUserSettings]","Persisting proto"]
+[2024-02-16 16:31:26.739] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 14 messages for 1207825567014060034 isBefore:false isAfter:false"]
+[2024-02-16 16:31:26.742] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=1207825567014060034, sending.length=0"]
+[2024-02-16 16:31:26.899] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 16:31:26.899] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 16:31:26.899] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-16 16:31:26.899] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 16:31:26.899] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 16:31:26.899] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-16 16:31:26.899] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-16 16:31:26.899] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-16 16:31:26.899] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 16:31:26.899] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 16:31:26.899] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-16 16:31:26.899] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 16:31:26.899] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 16:31:26.899] [85208] (engine.cpp:257): - default: WH-CH720N ()
+[2024-02-16 16:31:26.899] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-16 16:31:26.899] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-16 16:31:26.899] [85208] (engine.cpp:257): - WH-CH720N ()
+[2024-02-16 16:31:26.900] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-16 16:31:26.900] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-16 16:31:26.900] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-16 16:31:26.900] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-16 16:31:26.900] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-16 16:31:26.901] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-16 16:31:26.901] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-16 16:31:26.901] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-16 16:31:26.901] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-16 16:31:26.901] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-16 16:31:26.901] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-16 16:31:26.901] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-16 16:31:26.902] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-16 16:31:26.902] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-16 16:31:26.902] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-16 16:31:26.903] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-16 16:31:26.904] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-16 16:31:26.904] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-16 16:31:26.904] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-16 16:31:35.973] [261005] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-east
+[2024-02-16 16:31:35.973] [261005] (region_latency_tester.cpp:72): Sending 5 latency test pings to region atlanta
+[2024-02-16 16:31:35.973] [261005] (region_latency_tester.cpp:72): Sending 5 latency test pings to region newark
+[2024-02-16 16:31:35.973] [261005] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2024-02-16 16:31:35.973] [261005] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2024-02-16 16:31:36.199] [261005] (region_latency_tester.cpp:283): Average RTT for region us-east is 58.5
+[2024-02-16 16:31:36.199] [261005] (region_latency_tester.cpp:283): Average RTT for region atlanta is 96
+[2024-02-16 16:31:36.199] [261005] (region_latency_tester.cpp:283): Average RTT for region newark is 128.5
+[2024-02-16 16:31:36.199] [261005] (region_latency_tester.cpp:283): Average RTT for region us-central is 163.25
+[2024-02-16 16:31:36.199] [261005] (region_latency_tester.cpp:283): Average RTT for region us-south is 204.5
+[2024-02-16 16:48:03.970] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 16:48:03.970] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 16:48:03.970] [85208] (engine.cpp:252): - default: alsa_output.pci-0000_00_1f.3.analog-stereo.monitor ()
+[2024-02-16 16:48:03.970] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 16:48:03.970] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 16:48:03.970] [85208] (engine.cpp:257): - default: WH-CH720N ()
+[2024-02-16 16:48:03.970] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-16 16:48:03.970] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-16 16:48:03.970] [85208] (engine.cpp:257): - WH-CH720N ()
+[2024-02-16 16:48:03.970] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 16:48:03.970] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 16:48:03.970] [85208] (engine.cpp:252): - default: alsa_output.pci-0000_00_1f.3.analog-stereo.monitor ()
+[2024-02-16 16:48:03.970] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 16:48:03.970] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 16:48:03.970] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-16 16:48:03.970] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-16 16:48:03.970] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-16 16:48:03.971] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-16 16:48:03.971] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-16 16:48:03.971] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-16 16:48:03.971] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-16 16:48:03.971] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-16 16:48:03.972] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-16 16:48:03.973] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-16 16:48:03.973] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-16 16:48:03.973] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-16 16:48:03.973] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-16 16:48:03.973] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-16 16:48:03.973] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-16 16:48:03.973] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-16 16:48:03.973] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-16 16:48:03.973] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-16 16:48:03.974] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-16 16:48:03.975] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-16 16:48:03.975] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-16 16:48:03.975] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-16 16:48:30.000] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 16:48:30.000] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 16:48:30.000] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-16 16:48:30.000] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 16:48:30.000] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 16:48:30.000] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-16 16:48:30.000] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-16 16:48:30.000] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-16 16:48:30.000] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 16:48:30.000] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 16:48:30.000] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-16 16:48:30.000] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 16:48:30.000] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 16:48:30.000] [85208] (engine.cpp:257): - default: WH-CH720N ()
+[2024-02-16 16:48:30.000] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-16 16:48:30.000] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-16 16:48:30.001] [85208] (engine.cpp:257): - WH-CH720N ()
+[2024-02-16 16:48:30.001] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-16 16:48:30.001] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-16 16:48:30.001] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-16 16:48:30.001] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-16 16:48:30.001] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-16 16:48:30.002] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-16 16:48:30.003] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-16 16:48:30.003] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-16 16:48:30.003] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-16 16:48:30.003] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-16 16:48:30.003] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-16 16:48:30.003] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-16 16:48:30.003] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-16 16:48:30.003] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-16 16:48:30.003] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-16 16:48:30.004] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-16 16:48:30.005] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-16 16:48:30.005] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-16 16:48:30.005] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-16 17:20:49.952] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 17:20:49.952] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 17:20:49.952] [85208] (engine.cpp:252): - default: alsa_output.pci-0000_00_1f.3.analog-stereo.monitor ()
+[2024-02-16 17:20:49.952] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 17:20:49.952] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 17:20:49.952] [85208] (engine.cpp:257): - default: WH-CH720N ()
+[2024-02-16 17:20:49.952] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-16 17:20:49.952] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-16 17:20:49.952] [85208] (engine.cpp:257): - WH-CH720N ()
+[2024-02-16 17:20:49.952] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 17:20:49.952] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 17:20:49.952] [85208] (engine.cpp:252): - default: alsa_output.pci-0000_00_1f.3.analog-stereo.monitor ()
+[2024-02-16 17:20:49.952] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 17:20:49.952] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 17:20:49.952] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-16 17:20:49.952] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-16 17:20:49.952] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-16 17:20:49.953] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-16 17:20:49.953] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-16 17:20:49.953] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-16 17:20:49.953] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-16 17:20:49.953] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-16 17:20:49.954] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-16 17:20:49.954] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-16 17:20:49.954] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-16 17:20:49.954] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-16 17:20:49.954] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-16 17:20:49.954] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-16 17:20:49.954] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-16 17:20:49.957] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-16 17:20:49.957] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-16 17:20:49.957] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-16 17:20:49.958] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-16 17:20:49.959] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-16 17:20:49.959] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-16 17:20:49.959] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-16 17:33:52.883] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 17:33:52.883] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 17:33:52.883] [85208] (engine.cpp:252): - default: alsa_output.pci-0000_00_1f.3.analog-stereo.monitor ()
+[2024-02-16 17:33:52.883] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 17:33:52.883] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 17:33:52.883] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-16 17:33:52.883] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-16 17:33:52.884] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-16 17:33:52.884] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-16 17:33:52.884] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-16 17:33:52.884] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-16 17:33:52.885] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-16 17:33:52.885] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-16 17:33:52.885] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-16 22:22:21.941] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-16 22:22:21.941] [85208] (engine.cpp:249): * audioInput:
+[2024-02-16 22:22:21.941] [85208] (engine.cpp:252): - default: alsa_output.pci-0000_00_1f.3.analog-stereo.monitor ()
+[2024-02-16 22:22:21.941] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-16 22:22:21.941] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-16 22:22:21.941] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-16 22:22:21.941] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-16 22:22:21.941] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-16 22:22:21.942] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-16 22:22:21.942] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-16 22:22:21.942] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-16 22:22:21.943] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-16 22:22:21.944] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-16 22:22:21.944] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-16 22:22:21.944] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-16 22:22:24.685] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 2.09 seconds."]
+[2024-02-16 22:22:26.776] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-16 22:22:26.953] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 177 ms"]
+[2024-02-16 22:22:27.290] [85179] (discord.cpp:755): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 1207825566313746537"]
+[2024-02-16 22:22:27.407] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY] took 631ms, as 29de0514ef4100db49059d040304118d"]
+[2024-02-16 22:22:27.416] [85179] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2024-02-16 22:22:27.417] [85179] (discord.cpp:755): JS console: ["%c[DatabaseManager]","removing database (user: 747883603647791125, database: null)"]
+[2024-02-16 22:22:27.419] [85179] (discord.cpp:755): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2024-02-16 22:22:27.432] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 1207825567014060034 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-16 22:22:27.471] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 695ms"]
+[2024-02-16 22:22:27.605] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 14 messages for 1207825567014060034 isBefore:false isAfter:false"]
+[2024-02-16 22:22:27.607] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=1207825567014060034, sending.length=0"]
+[2024-02-17 14:18:32.298] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 2.91 seconds."]
+[2024-02-17 14:18:32.700] [304395] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-east
+[2024-02-17 14:18:32.700] [304395] (region_latency_tester.cpp:72): Sending 5 latency test pings to region atlanta
+[2024-02-17 14:18:32.700] [304395] (region_latency_tester.cpp:72): Sending 5 latency test pings to region newark
+[2024-02-17 14:18:32.700] [304395] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2024-02-17 14:18:32.700] [304395] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2024-02-17 14:18:32.914] [304395] (region_latency_tester.cpp:283): Average RTT for region us-east is 44
+[2024-02-17 14:18:32.914] [304395] (region_latency_tester.cpp:283): Average RTT for region atlanta is 85.5
+[2024-02-17 14:18:32.914] [304395] (region_latency_tester.cpp:283): Average RTT for region newark is 117.5
+[2024-02-17 14:18:32.914] [304395] (region_latency_tester.cpp:283): Average RTT for region us-central is 149.5
+[2024-02-17 14:18:32.914] [304395] (region_latency_tester.cpp:283): Average RTT for region us-south is 193.25
+[2024-02-17 14:18:35.205] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-17 14:18:35.385] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 179 ms"]
+[2024-02-17 14:18:35.578] [85179] (discord.cpp:755): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 1207825566313746537"]
+[2024-02-17 14:18:35.697] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY] took 492ms, as 83ad83d6235e44d0f50eaa79329bd76c"]
+[2024-02-17 14:18:35.704] [85179] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2024-02-17 14:18:35.704] [85179] (discord.cpp:755): JS console: ["%c[DatabaseManager]","removing database (user: 747883603647791125, database: null)"]
+[2024-02-17 14:18:35.706] [85179] (discord.cpp:755): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2024-02-17 14:18:35.721] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 1207825567014060034 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-17 14:18:35.726] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 521ms"]
+[2024-02-17 14:18:35.874] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 14 messages for 1207825567014060034 isBefore:false isAfter:false"]
+[2024-02-17 14:18:35.876] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=1207825567014060034, sending.length=0"]
+[2024-02-17 14:18:39.134] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-17 14:18:39.134] [85208] (engine.cpp:249): * audioInput:
+[2024-02-17 14:18:39.134] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-17 14:18:39.134] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-17 14:18:39.134] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-17 14:18:39.134] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-17 14:18:39.134] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-17 14:18:39.134] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-17 14:18:39.134] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-17 14:18:39.134] [85208] (engine.cpp:249): * audioInput:
+[2024-02-17 14:18:39.134] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-17 14:18:39.134] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-17 14:18:39.134] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-17 14:18:39.134] [85208] (engine.cpp:257): - default: WH-CH720N ()
+[2024-02-17 14:18:39.134] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-17 14:18:39.134] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-17 14:18:39.134] [85208] (engine.cpp:257): - WH-CH720N ()
+[2024-02-17 14:18:39.150] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-17 14:18:39.150] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-17 14:18:39.150] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-17 14:18:39.150] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-17 14:18:39.150] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-17 14:18:39.151] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-17 14:18:39.151] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-17 14:18:39.151] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-17 14:18:39.151] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-17 14:18:39.151] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-17 14:18:39.151] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-17 14:18:39.151] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-17 14:18:39.156] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-17 14:18:39.156] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-17 14:18:39.156] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-17 14:18:39.156] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-17 14:18:39.156] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-17 14:18:39.156] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-17 14:18:39.156] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-17 14:19:09.063] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-17 14:19:09.063] [85208] (engine.cpp:249): * audioInput:
+[2024-02-17 14:19:09.063] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-17 14:19:09.063] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-17 14:19:09.063] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-17 14:19:09.063] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-17 14:19:09.063] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-17 14:19:09.063] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-17 14:19:09.063] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-17 14:19:09.063] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-17 14:19:09.063] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-17 14:19:09.064] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-17 14:19:09.064] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-17 14:19:09.064] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-17 14:19:09.064] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-17 14:19:10.069] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-17 14:19:10.069] [85208] (engine.cpp:249): * audioInput:
+[2024-02-17 14:19:10.069] [85208] (engine.cpp:252): - default: alsa_output.pci-0000_00_1f.3.analog-stereo.monitor ()
+[2024-02-17 14:19:10.069] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-17 14:19:10.069] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-17 14:19:10.069] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-17 14:19:10.069] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-17 14:19:10.069] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-17 14:19:10.070] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-17 14:19:10.070] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-17 14:19:10.070] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-17 14:19:10.070] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-17 14:19:10.070] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-17 14:19:10.071] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-17 14:19:10.071] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-17 14:19:10.071] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-17 14:19:10.071] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-17 14:19:10.071] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-17 14:19:10.071] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-17 14:19:10.071] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-17 14:19:13.072] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-17 14:19:13.072] [85208] (engine.cpp:249): * audioInput:
+[2024-02-17 14:19:13.072] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-17 14:19:13.072] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-17 14:19:13.072] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-17 14:19:13.072] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-17 14:19:13.072] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-17 14:19:13.072] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-17 14:19:13.072] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-17 14:19:13.072] [85208] (engine.cpp:249): * audioInput:
+[2024-02-17 14:19:13.072] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-17 14:19:13.072] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-17 14:19:13.072] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-17 14:19:13.072] [85208] (engine.cpp:257): - default: WH-CH720N ()
+[2024-02-17 14:19:13.072] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-17 14:19:13.072] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-17 14:19:13.072] [85208] (engine.cpp:257): - WH-CH720N ()
+[2024-02-17 14:19:13.073] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-17 14:19:13.073] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-17 14:19:13.073] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-17 14:19:13.073] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-17 14:19:13.073] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-17 14:19:13.073] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-17 14:19:13.073] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-17 14:19:13.073] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-17 14:19:13.073] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-17 14:19:13.073] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-17 14:19:13.073] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-17 14:19:13.073] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-17 14:19:13.073] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-17 14:19:13.073] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-17 14:19:13.073] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-17 14:19:13.073] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-17 14:19:13.074] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-17 14:19:13.074] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-17 14:19:13.074] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-17 14:35:35.820] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-17 14:35:35.983] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 163 ms"]
+[2024-02-17 14:35:35.985] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 83ad83d6235e44d0f50eaa79329bd76c, seq: 281"]
+[2024-02-17 14:35:36.058] [85179] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2024-02-17 14:35:36.067] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUMED] took 247ms, replayed 0 events, new seq: 282"]
+[2024-02-17 15:18:26.672] [85179] (discord.cpp:755): JS console: ["%c[discord_protos.discord_users.v1.FrecencyUserSettings]","Loading proto"]
+[2024-02-17 15:18:26.673] [85179] (discord.cpp:755): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2024-02-17 15:18:26.693] [85179] (discord.cpp:755): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2024-02-17 15:18:26.693] [85179] (discord.cpp:755): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2024-02-17 15:18:26.693] [85179] (discord.cpp:755): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2024-02-17 15:18:26.693] [85179] (discord.cpp:755): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2024-02-17 15:18:26.694] [85179] (discord.cpp:755): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2024-02-17 16:06:29.626] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-17 16:06:29.626] [85208] (engine.cpp:249): * audioInput:
+[2024-02-17 16:06:29.626] [85208] (engine.cpp:252): - default: Built-in Audio Analog Stereo ()
+[2024-02-17 16:06:29.626] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-17 16:06:29.626] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-17 16:06:29.626] [85208] (engine.cpp:257): - default: WH-CH720N ()
+[2024-02-17 16:06:29.626] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-17 16:06:29.626] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-17 16:06:29.626] [85208] (engine.cpp:257): - WH-CH720N ()
+[2024-02-17 16:06:29.626] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-17 16:06:29.626] [85208] (engine.cpp:249): * audioInput:
+[2024-02-17 16:06:29.626] [85208] (engine.cpp:252): - default: Built-in Audio Analog Stereo ()
+[2024-02-17 16:06:29.626] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-17 16:06:29.626] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-17 16:06:29.626] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-17 16:06:29.626] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-17 16:06:29.626] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-17 16:06:29.630] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-17 16:06:29.630] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-17 16:06:29.630] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-17 16:06:29.630] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-17 16:06:29.630] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-17 16:06:29.632] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-17 16:06:29.632] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-17 16:06:29.632] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-17 16:06:29.632] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-17 16:06:29.632] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-17 16:06:29.632] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-17 16:06:29.632] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-17 16:06:29.632] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-17 16:06:29.632] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-17 16:06:29.632] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-17 16:06:29.632] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-17 16:06:29.632] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-17 16:06:29.632] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-17 16:06:29.632] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-17 16:06:30.630] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-17 16:06:30.630] [85208] (engine.cpp:249): * audioInput:
+[2024-02-17 16:06:30.630] [85208] (engine.cpp:252): - default: alsa_output.pci-0000_00_1f.3.analog-stereo.monitor ()
+[2024-02-17 16:06:30.630] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-17 16:06:30.630] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-17 16:06:30.630] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-17 16:06:30.630] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-17 16:06:30.630] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-17 16:06:30.631] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-17 16:06:30.631] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-17 16:06:30.631] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-17 16:06:30.631] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-17 16:06:30.631] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-17 16:06:30.631] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-17 16:06:30.632] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-17 16:06:30.632] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-17 16:06:30.632] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-17 16:06:30.632] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-17 16:06:30.632] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-17 16:06:30.632] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-17 16:06:32.924] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 2.61 seconds."]
+[2024-02-17 16:06:35.537] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-17 16:06:35.769] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 232 ms"]
+[2024-02-17 16:06:36.017] [85179] (discord.cpp:755): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 1207825566313746537"]
+[2024-02-17 16:06:36.098] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY] took 560ms, as fce3132116398646b202698c6a55e4eb"]
+[2024-02-17 16:06:36.103] [85179] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2024-02-17 16:06:36.104] [85179] (discord.cpp:755): JS console: ["%c[DatabaseManager]","removing database (user: 747883603647791125, database: null)"]
+[2024-02-17 16:06:36.107] [85179] (discord.cpp:755): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2024-02-17 16:06:36.115] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 1207825567014060034 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-17 16:06:36.163] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 626ms"]
+[2024-02-17 16:06:36.250] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 14 messages for 1207825567014060034 isBefore:false isAfter:false"]
+[2024-02-17 16:06:36.252] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=1207825567014060034, sending.length=0"]
+[2024-02-17 16:06:51.846] [366039] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-east
+[2024-02-17 16:06:51.846] [366039] (region_latency_tester.cpp:72): Sending 5 latency test pings to region atlanta
+[2024-02-17 16:06:51.846] [366039] (region_latency_tester.cpp:72): Sending 5 latency test pings to region newark
+[2024-02-17 16:06:51.846] [366039] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2024-02-17 16:06:51.846] [366039] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2024-02-17 16:06:52.083] [366039] (region_latency_tester.cpp:283): Average RTT for region us-east is 60.5
+[2024-02-17 16:06:52.083] [366039] (region_latency_tester.cpp:283): Average RTT for region atlanta is 113.5
+[2024-02-17 16:06:52.083] [366039] (region_latency_tester.cpp:283): Average RTT for region newark is 146.5
+[2024-02-17 16:06:52.084] [366039] (region_latency_tester.cpp:283): Average RTT for region us-central is 179
+[2024-02-17 16:06:52.084] [366039] (region_latency_tester.cpp:283): Average RTT for region us-south is 221.75
+[2024-02-17 16:07:12.676] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-17 16:07:12.676] [85208] (engine.cpp:249): * audioInput:
+[2024-02-17 16:07:12.676] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-17 16:07:12.676] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-17 16:07:12.676] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-17 16:07:12.676] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-17 16:07:12.676] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-17 16:07:12.676] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-17 16:07:12.676] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-17 16:07:12.676] [85208] (engine.cpp:249): * audioInput:
+[2024-02-17 16:07:12.676] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-17 16:07:12.676] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-17 16:07:12.676] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-17 16:07:12.676] [85208] (engine.cpp:257): - default: WH-CH720N ()
+[2024-02-17 16:07:12.676] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-17 16:07:12.676] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-17 16:07:12.676] [85208] (engine.cpp:257): - WH-CH720N ()
+[2024-02-17 16:07:12.677] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-17 16:07:12.677] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-17 16:07:12.677] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-17 16:07:12.677] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-17 16:07:12.677] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-17 16:07:12.678] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-17 16:07:12.679] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-17 16:07:12.679] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-17 16:07:12.679] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-17 16:07:12.679] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-17 16:07:12.679] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-17 16:07:12.679] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-17 16:07:12.680] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-17 16:07:12.680] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-17 16:07:12.680] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-17 16:07:12.681] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-17 16:07:12.683] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-17 16:07:12.683] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-17 16:07:12.683] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-17 16:07:18.674] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-17 16:07:18.674] [85208] (engine.cpp:249): * audioInput:
+[2024-02-17 16:07:18.674] [85208] (engine.cpp:252): - default: WH-CH720N ()
+[2024-02-17 16:07:18.674] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-17 16:07:18.674] [85208] (engine.cpp:252): - WH-CH720N ()
+[2024-02-17 16:07:18.674] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-17 16:07:18.674] [85208] (engine.cpp:257): - default: WH-CH720N ()
+[2024-02-17 16:07:18.674] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-17 16:07:18.674] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-17 16:07:18.674] [85208] (engine.cpp:257): - WH-CH720N ()
+[2024-02-17 16:07:18.675] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-17 16:07:18.675] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-17 16:07:18.675] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-17 16:07:18.675] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-17 16:07:18.675] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-17 16:07:18.675] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-17 16:07:18.675] [85208] (audio_device_impl.cc:573): output: 0
+[2024-02-17 16:07:18.675] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-17 16:07:18.675] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-17 16:07:18.675] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-17 16:07:18.675] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-17 16:07:18.675] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-17 16:07:50.887] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 807379025949360158 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-17 16:07:51.015] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/784910850992373806/807379025949360158"]
+[2024-02-17 16:07:51.173] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 5 messages for 807379025949360158 isBefore:false isAfter:false"]
+[2024-02-17 16:07:51.173] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=807379025949360158, sending.length=0"]
+[2024-02-17 16:08:01.748] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 1141907033403175034 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-17 16:08:01.869] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1141907032132296744/1141907033403175034"]
+[2024-02-17 16:08:01.983] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1141907033403175034 isBefore:false isAfter:false"]
+[2024-02-17 16:08:01.984] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=1141907033403175034, sending.length=0"]
+[2024-02-17 16:23:05.478] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1207825566313746537/1207825567014060034"]
+[2024-02-17 16:23:06.534] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 801187416652251177 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-17 16:23:06.662] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/442506812969713694/801187416652251177"]
+[2024-02-17 16:23:06.833] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 801187416652251177 isBefore:false isAfter:false"]
+[2024-02-17 16:23:06.835] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=801187416652251177, sending.length=0"]
+[2024-02-17 16:23:12.759] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 442506812969713696 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-17 16:23:12.833] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/442506812969713694/442506812969713696"]
+[2024-02-17 16:23:12.975] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 442506812969713696 isBefore:false isAfter:false"]
+[2024-02-17 16:23:12.977] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=442506812969713696, sending.length=0"]
+[2024-02-17 16:23:15.924] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 442506812969713696 between 1208163168178798662 and undefined. jump=undefined"]
+[2024-02-17 16:23:16.267] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 442506812969713696 isBefore:true isAfter:false"]
+[2024-02-17 16:23:16.355] [85179] (discord.cpp:755): JS console: ["Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated."]
+[2024-02-17 16:23:16.355] [85179] (discord.cpp:755): JS console: ["Deprecated as of 10.7.0. Please use highlight(code, options) instead.\nhttps://github.com/highlightjs/highlight.js/issues/2277"]
+[2024-02-18 03:20:55.623] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-18 03:20:55.623] [85208] (engine.cpp:249): * audioInput:
+[2024-02-18 03:20:55.623] [85208] (engine.cpp:252): - default: Built-in Audio Analog Stereo ()
+[2024-02-18 03:20:55.623] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-18 03:20:55.623] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-18 03:20:55.623] [85208] (engine.cpp:257): - default: WH-CH720N ()
+[2024-02-18 03:20:55.623] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-18 03:20:55.623] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-18 03:20:55.623] [85208] (engine.cpp:257): - WH-CH720N ()
+[2024-02-18 03:20:55.623] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-18 03:20:55.623] [85208] (engine.cpp:249): * audioInput:
+[2024-02-18 03:20:55.623] [85208] (engine.cpp:252): - default: Built-in Audio Analog Stereo ()
+[2024-02-18 03:20:55.623] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-18 03:20:55.623] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-18 03:20:55.623] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-18 03:20:55.623] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-18 03:20:55.623] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-18 03:20:55.626] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-18 03:20:55.626] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-18 03:20:55.626] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-18 03:20:55.626] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-18 03:20:55.626] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-18 03:20:55.626] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-18 03:20:55.626] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-18 03:20:55.626] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-18 03:20:55.626] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-18 03:20:55.626] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-18 03:20:55.626] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-18 03:20:55.626] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-18 03:20:55.628] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-18 03:20:55.628] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-18 03:20:55.628] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-18 03:20:55.628] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-18 03:20:55.632] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-18 03:20:55.632] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-18 03:20:55.632] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-18 03:20:56.625] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-18 03:20:56.625] [85208] (engine.cpp:249): * audioInput:
+[2024-02-18 03:20:56.625] [85208] (engine.cpp:252): - default: alsa_output.pci-0000_00_1f.3.analog-stereo.monitor ()
+[2024-02-18 03:20:56.625] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-18 03:20:56.625] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-18 03:20:56.625] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-18 03:20:56.625] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-18 03:20:56.626] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-18 03:20:56.626] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-18 03:20:56.626] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-18 03:20:56.626] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-18 03:20:56.626] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-18 03:20:56.626] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-18 03:20:56.626] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-18 03:20:56.626] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-18 03:20:56.626] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-18 03:20:56.626] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-18 03:20:56.626] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-18 03:20:56.626] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-18 03:20:56.626] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-18 03:21:05.082] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[ACK TIMEOUT] reconnecting in 2.78 seconds."]
+[2024-02-18 03:21:07.877] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-18 03:21:08.046] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 169 ms"]
+[2024-02-18 03:21:08.355] [85179] (discord.cpp:755): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 442506812969713694"]
+[2024-02-18 03:21:08.559] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY] took 682ms, as 80a3d7762fc09aad4e4988d31105e485"]
+[2024-02-18 03:21:08.563] [85179] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2024-02-18 03:21:08.564] [85179] (discord.cpp:755): JS console: ["%c[DatabaseManager]","removing database (user: 747883603647791125, database: null)"]
+[2024-02-18 03:21:08.569] [85179] (discord.cpp:755): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2024-02-18 03:21:08.581] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 442506812969713696 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-18 03:21:08.593] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 716ms"]
+[2024-02-18 03:21:08.806] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 442506812969713696 isBefore:false isAfter:false"]
+[2024-02-18 03:21:08.809] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=442506812969713696, sending.length=0"]
+[2024-02-19 11:16:49.736] [85179] (discord.cpp:755): JS console: ["%c[ReadStateStore]","Deleting ReadState","959070339218935950","0","[object Object]"]
+[2024-02-19 11:16:52.692] [85179] (discord.cpp:755): JS console: ["%c[RTCLatencyTestManager]","Error: Request has been terminated\nPossible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc."]
+[2024-02-19 11:16:54.782] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[ACK TIMEOUT] reconnecting in 1.55 seconds."]
+[2024-02-19 11:16:54.867] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-19 11:16:54.873] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.67 seconds."]
+[2024-02-19 11:16:56.540] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-19 11:16:56.737] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 197 ms"]
+[2024-02-19 11:16:57.110] [85179] (discord.cpp:755): JS console: ["%c[ReadStateStore]","Deleting ReadState","1197237213717610757","0","[object Object]"]
+[2024-02-19 11:16:57.115] [85179] (discord.cpp:755): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 442506812969713694"]
+[2024-02-19 11:16:57.286] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY] took 745ms, as 16a7ae4c91d6127bd2885585179a8e00"]
+[2024-02-19 11:16:57.290] [85179] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2024-02-19 11:16:57.290] [85179] (discord.cpp:755): JS console: ["%c[DatabaseManager]","removing database (user: 747883603647791125, database: null)"]
+[2024-02-19 11:16:57.293] [85179] (discord.cpp:755): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2024-02-19 11:16:57.306] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 442506812969713696 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-19 11:16:57.406] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 866ms"]
+[2024-02-19 11:16:57.760] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 442506812969713696 isBefore:false isAfter:false"]
+[2024-02-19 11:16:57.767] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=442506812969713696, sending.length=0"]
+[2024-02-19 11:17:10.315] [380158] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-east
+[2024-02-19 11:17:10.315] [380158] (region_latency_tester.cpp:72): Sending 5 latency test pings to region atlanta
+[2024-02-19 11:17:10.315] [380158] (region_latency_tester.cpp:72): Sending 5 latency test pings to region newark
+[2024-02-19 11:17:10.315] [380158] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2024-02-19 11:17:10.315] [380158] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2024-02-19 11:17:10.527] [380158] (region_latency_tester.cpp:283): Average RTT for region us-east is 41.25
+[2024-02-19 11:17:10.527] [380158] (region_latency_tester.cpp:283): Average RTT for region atlanta is 85.25
+[2024-02-19 11:17:10.527] [380158] (region_latency_tester.cpp:283): Average RTT for region newark is 113.25
+[2024-02-19 11:17:10.527] [380158] (region_latency_tester.cpp:283): Average RTT for region us-central is 154.25
+[2024-02-19 11:17:10.527] [380158] (region_latency_tester.cpp:283): Average RTT for region us-south is 196.25
+[2024-02-19 11:18:06.830] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-19 11:18:06.830] [85208] (engine.cpp:249): * audioInput:
+[2024-02-19 11:18:06.830] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-19 11:18:06.830] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-19 11:18:06.830] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-19 11:18:06.830] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-19 11:18:06.830] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-19 11:18:06.830] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-19 11:18:06.830] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-19 11:18:06.830] [85208] (engine.cpp:249): * audioInput:
+[2024-02-19 11:18:06.830] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-19 11:18:06.830] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-19 11:18:06.830] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-19 11:18:06.830] [85208] (engine.cpp:257): - default: WH-CH720N ()
+[2024-02-19 11:18:06.830] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-19 11:18:06.830] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-19 11:18:06.830] [85208] (engine.cpp:257): - WH-CH720N ()
+[2024-02-19 11:18:06.845] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-19 11:18:06.845] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-19 11:18:06.845] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-19 11:18:06.845] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-19 11:18:06.845] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-19 11:18:06.845] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-19 11:18:06.845] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-19 11:18:06.845] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-19 11:18:06.845] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-19 11:18:06.845] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-19 11:18:06.845] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-19 11:18:06.845] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-19 11:18:06.849] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-19 11:18:06.849] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-19 11:18:06.849] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-19 11:18:06.850] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-19 11:18:06.850] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-19 11:18:06.850] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-19 11:18:06.850] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-19 12:07:32.731] [85179] (discord.cpp:755): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2024-02-19 12:07:32.746] [85179] (discord.cpp:755): JS console: ["%c[discord_protos.discord_users.v1.FrecencyUserSettings]","Loading proto"]
+[2024-02-19 12:07:32.754] [85179] (discord.cpp:755): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2024-02-19 12:07:32.762] [85179] (discord.cpp:755): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2024-02-19 12:07:32.880] [85179] (discord.cpp:755): JS console: ["Unable to determine render window for element","[object HTMLDocument]"]
+[2024-02-19 12:08:00.895] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 980480120479428648 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-19 12:08:01.018] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/936800278064275496/980480120479428648"]
+[2024-02-19 12:08:01.793] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 8 messages for 980480120479428648 isBefore:false isAfter:false"]
+[2024-02-19 12:08:01.795] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=980480120479428648, sending.length=0"]
+[2024-02-19 12:08:01.947] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 936800278064275503 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-19 12:08:02.058] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/936800278064275496/936800278064275503"]
+[2024-02-19 12:08:02.452] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 936800278064275503 isBefore:false isAfter:false"]
+[2024-02-19 12:08:02.455] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=936800278064275503, sending.length=0"]
+[2024-02-19 12:08:06.836] [85179] (discord.cpp:755): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/442506812969713694/442506812969713696"]
+[2024-02-19 12:11:32.237] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-19 12:11:32.237] [85208] (engine.cpp:249): * audioInput:
+[2024-02-19 12:11:32.237] [85208] (engine.cpp:252): - default: alsa_output.pci-0000_00_1f.3.analog-stereo.monitor ()
+[2024-02-19 12:11:32.237] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-19 12:11:32.237] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-19 12:11:32.237] [85208] (engine.cpp:257): - default: WH-CH720N ()
+[2024-02-19 12:11:32.237] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-19 12:11:32.237] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-19 12:11:32.237] [85208] (engine.cpp:257): - WH-CH720N ()
+[2024-02-19 12:11:32.237] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-19 12:11:32.237] [85208] (engine.cpp:249): * audioInput:
+[2024-02-19 12:11:32.237] [85208] (engine.cpp:252): - default: alsa_output.pci-0000_00_1f.3.analog-stereo.monitor ()
+[2024-02-19 12:11:32.237] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-19 12:11:32.237] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-19 12:11:32.237] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-19 12:11:32.237] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-19 12:11:32.237] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-19 12:11:32.247] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-19 12:11:32.247] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-19 12:11:32.247] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-19 12:11:32.247] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-19 12:11:32.247] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-19 12:11:32.247] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-19 12:11:32.247] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-19 12:11:32.247] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-19 12:11:32.247] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-19 12:11:32.247] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-19 12:11:32.247] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-19 12:11:32.247] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-19 12:11:32.250] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-19 12:11:32.250] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-19 12:11:32.250] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-19 12:11:32.250] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-19 12:11:32.250] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-19 12:11:32.250] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-19 12:11:32.250] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-19 12:22:02.003] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-19 12:22:02.003] [85208] (engine.cpp:249): * audioInput:
+[2024-02-19 12:22:02.003] [85208] (engine.cpp:252): - default: alsa_output.pci-0000_00_1f.3.analog-stereo.monitor ()
+[2024-02-19 12:22:02.003] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-19 12:22:02.003] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-19 12:22:02.003] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-19 12:22:02.003] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-19 12:22:02.004] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-19 12:22:02.004] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-19 12:22:02.004] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-19 12:22:02.005] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-19 12:22:02.007] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-19 12:22:02.007] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-19 12:22:02.007] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-19 12:22:58.256] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-19 12:22:58.436] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 180 ms"]
+[2024-02-19 12:22:58.437] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 16a7ae4c91d6127bd2885585179a8e00, seq: 3384"]
+[2024-02-19 12:22:58.509] [85179] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2024-02-19 12:22:58.514] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[RESUMED] took 258ms, replayed 0 events, new seq: 3385"]
+[2024-02-19 13:11:35.737] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-19 13:11:35.737] [85208] (engine.cpp:249): * audioInput:
+[2024-02-19 13:11:35.737] [85208] (engine.cpp:252): - default: alsa_output.pci-0000_00_1f.3.analog-stereo.monitor ()
+[2024-02-19 13:11:35.737] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-19 13:11:35.737] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-19 13:11:35.737] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-19 13:11:35.737] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-19 13:11:35.737] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-19 13:11:35.738] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-19 13:11:35.738] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-19 13:11:35.738] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-19 13:11:35.739] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-19 13:11:35.739] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-19 13:11:35.739] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-19 13:11:35.739] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-19 13:11:37.598] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 2.48 seconds."]
+[2024-02-19 13:11:38.735] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-19 13:11:38.735] [85208] (engine.cpp:249): * audioInput:
+[2024-02-19 13:11:38.735] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-19 13:11:38.735] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-19 13:11:38.735] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-19 13:11:38.735] [85208] (engine.cpp:257): - default: Built-in Audio Analog Stereo ()
+[2024-02-19 13:11:38.735] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-19 13:11:38.735] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-19 13:11:38.735] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-19 13:11:38.735] [85208] (engine.cpp:249): * audioInput:
+[2024-02-19 13:11:38.735] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-19 13:11:38.735] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-19 13:11:38.735] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-19 13:11:38.735] [85208] (engine.cpp:257): - default: WH-CH720N ()
+[2024-02-19 13:11:38.735] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-19 13:11:38.735] [85208] (engine.cpp:257): - Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 5) ()
+[2024-02-19 13:11:38.735] [85208] (engine.cpp:257): - WH-CH720N ()
+[2024-02-19 13:11:38.736] [85208] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-19 13:11:38.736] [85208] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-19 13:11:38.736] [85208] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-19 13:11:38.736] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-19 13:11:38.736] [85208] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-19 13:11:38.736] [85208] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-19 13:11:38.736] [85208] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-19 13:11:38.736] [85208] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-19 13:11:38.736] [85208] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-19 13:11:38.736] [85208] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-19 13:11:38.736] [85208] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-19 13:11:38.736] [85208] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-19 13:11:38.736] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-19 13:11:38.736] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-19 13:11:38.736] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-19 13:11:38.736] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-19 13:11:38.736] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-19 13:11:38.736] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-19 13:11:38.736] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-19 13:11:40.080] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-19 13:11:40.275] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 194 ms"]
+[2024-02-19 13:11:40.690] [85179] (discord.cpp:755): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 442506812969713694"]
+[2024-02-19 13:11:40.716] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY] took 636ms, as 049f491b3c983e87e125557ad4bbd1ab"]
+[2024-02-19 13:11:40.722] [85179] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2024-02-19 13:11:40.723] [85179] (discord.cpp:755): JS console: ["%c[DatabaseManager]","removing database (user: 747883603647791125, database: null)"]
+[2024-02-19 13:11:40.727] [85179] (discord.cpp:755): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2024-02-19 13:11:40.741] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetching messages for 442506812969713696 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2024-02-19 13:11:40.754] [85179] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 674ms"]
+[2024-02-19 13:11:40.898] [85179] (discord.cpp:755): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 442506812969713696 isBefore:false isAfter:false"]
+[2024-02-19 13:11:40.900] [85179] (discord.cpp:755): JS console: ["%c[ChannelMessages]","loadComplete: resetting state for channelId=442506812969713696, sending.length=0"]
+[2024-02-19 13:11:55.118] [443510] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-east
+[2024-02-19 13:11:55.118] [443510] (region_latency_tester.cpp:72): Sending 5 latency test pings to region atlanta
+[2024-02-19 13:11:55.118] [443510] (region_latency_tester.cpp:72): Sending 5 latency test pings to region newark
+[2024-02-19 13:11:55.118] [443510] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2024-02-19 13:11:55.118] [443510] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2024-02-19 13:11:55.341] [443510] (region_latency_tester.cpp:283): Average RTT for region us-east is 40
+[2024-02-19 13:11:55.341] [443510] (region_latency_tester.cpp:283): Average RTT for region atlanta is 90
+[2024-02-19 13:11:55.341] [443510] (region_latency_tester.cpp:283): Average RTT for region newark is 124.5
+[2024-02-19 13:11:55.341] [443510] (region_latency_tester.cpp:283): Average RTT for region us-central is 158.5
+[2024-02-19 13:11:55.341] [443510] (region_latency_tester.cpp:283): Average RTT for region us-south is 201
+[2024-02-19 14:24:23.214] [85208] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-19 14:24:23.214] [85208] (engine.cpp:249): * audioInput:
+[2024-02-19 14:24:23.214] [85208] (engine.cpp:252): - default: bluez_output.84_D3_52_02_64_74.1.monitor ()
+[2024-02-19 14:24:23.214] [85208] (engine.cpp:252): - Built-in Audio Analog Stereo ()
+[2024-02-19 14:24:23.214] [85208] (engine.cpp:254): * audioOutput:
+[2024-02-19 14:24:23.214] [85208] (engine.cpp:257): - default: WH-CH720N ()
+[2024-02-19 14:24:23.214] [85208] (engine.cpp:257): - Built-in Audio Analog Stereo ()
+[2024-02-19 14:24:23.214] [85208] (engine.cpp:257): - WH-CH720N ()
+[2024-02-19 14:24:23.229] [85208] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-19 14:24:23.229] [85208] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-19 14:24:23.229] [85208] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-19 14:24:23.229] [85208] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-19 14:24:23.230] [85208] (audio_device_impl.cc:619): output: 1
+[2024-02-19 14:24:23.230] [85208] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-19 14:24:23.230] [85208] (audio_device_buffer.cc:209): SetPlayoutChannels(2)

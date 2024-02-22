@@ -17,13 +17,7 @@ require("lazy").setup({
     'nvim-tree/nvim-tree.lua', -- file explorer
     'nvim-tree/nvim-web-devicons', -- file explorer icons
     'github/copilot.vim', -- copilot
-    -- autocomplete
-    'neovim/nvim-lspconfig',
-    'hrsh7th/cmp-nvim-lsp',
-    'hrsh7th/cmp-buffer',
-    'hrsh7th/cmp-path',
-    'hrsh7th/cmp-cmdline',
-    'hrsh7th/nvim-cmp',
+    'neovim/nvim-lspconfig', -- language server protocol
     'marko-cerovac/material.nvim', -- colorscheme
 })
 
@@ -93,29 +87,6 @@ require("nvim-tree").setup {
   },
 }
 
--- nvim-cmp configuration
-local cmp = require'cmp'
-cmp.setup({
-  snippet = {
-    expand = function(args)
-      vim.fn["vsnip#anonymous"](args.body)
-    end,
-  },
-  mapping = {
-    ['<C-d>'] = cmp.mapping.scroll_docs(-4),
-    ['<C-f>'] = cmp.mapping.scroll_docs(4),
-    ['<C-Space>'] = cmp.mapping.complete(),
-    ['<C-e>'] = cmp.mapping.close(),
-    ['<CR>'] = cmp.mapping.confirm({ select = true }),
-  },
-  sources = {
-    { name = 'nvim_lsp' },
-    { name = 'buffer' },
-    { name = 'path' },
-    { name = 'cmdline' },
-  },
-})
-
 -- material.nvim configuration
 vim.g.material_style = "darker"
 vim.cmd('colorscheme material')
@@ -129,3 +100,6 @@ vim.g.mapleader = ';'
 vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', {
     noremap = true
 })
+
+vim.wo.number = true
+vim.opt.colorcolumn = "80"
