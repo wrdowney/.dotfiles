@@ -3,7 +3,9 @@
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
 # Read `man 5 sway` for a complete reference.
+include /etc/sway/config.d/*
 
+font pango:JetBrainsMonoNF Medium 11
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -174,6 +176,11 @@ mode "resize" {
     bindsym Escape mode "default"
 }
 bindsym $mod+r mode "resize"
+
+smart_borders on
+gaps inner 4
+gaps outer 4
+default_border pixel 3
 
 # apply mark for Xwayland and wayland native browser windows
 for_window [class="Chromium-browser"] mark Browser
