@@ -1,0 +1,8 @@
+profile {
+	output eDP-1 enable mode 2560x1440 position 0,0 scale 1.5
+}
+
+profile docked {
+	output eDP-1 enable mode 2560x1440 position 0,0 scale 1.5
+	output DP-4 enable mode 2560x1440 position 1706,0
+}

@@ -1,0 +1,39 @@
+[core]
+    editor = nvim
+    autocrlf = input
+
+[user]
+    name = William Downey
+    email = me@wrdowney.com
+    signingkey = F5686F28FF78F8C3 
+
+[commit]
+    gpgSign = true
+    verbose = yes
+
+[tag]
+    gpgSign = true
+
+[init]
+    defaultBranch = main
+
+[sendemail]
+    annotate = yes
+    smtpserver = smtp.migadu.com
+    smtpuser = me@wrdowney.com
+    smtpencryption = ssl
+    smtpserverport = 465
+
+[pull]
+    rebase = true
+
+[push]
+    default = simple
+    followTags = yes
+    gpgSign = if-asked
+
+[github]
+    user = wrdowney
+
+[sr.ht]
+    user = wrd
